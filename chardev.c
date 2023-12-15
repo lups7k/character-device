@@ -117,7 +117,7 @@ int init_module() {
 	printk("%s The major device number is %d. \n Registeration is a success.", Major);
 	printk("If you want to talk to the device driver,\n you'll have to create a device file. \n We suggest you use");
 	printk("mknod <name> c %d <minor>\n", Major);
-	printk("You can try different minor numbers\n and see what happens.\n")
+	printk("You can try different minor numbers\n and see what happens.\n");
 	return 0;
 }
 void cleanup_module() {
